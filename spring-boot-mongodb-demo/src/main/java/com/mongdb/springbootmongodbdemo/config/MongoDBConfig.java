@@ -20,7 +20,7 @@ import com.mongdb.springbootmongodbdemo.repository.UsersRepository;
 @Configuration
 public class MongoDBConfig {
 
-	@Bean
+	/*@Bean
 	CommandLineRunner commandLineRunner(UsersRepository usersRepository) {
 		return new CommandLineRunner() {
 
@@ -33,5 +33,5 @@ public class MongoDBConfig {
 			}
 
 		};
-	}
+	}*/
 }
